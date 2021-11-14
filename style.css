@@ -1,0 +1,99 @@
+.Nội dung {
+    chức vụ: thân nhân;
+    chỉ số z: 3;
+}
+
+#không {
+    vị trí: tuyệt đối;
+    display: inline-block;
+    trái: 35%;
+    đầu: 40vh;
+    -webkit-chuyển tiếp: dễ dàng hết 0,1 giây;
+}
+
+#đúng {
+    vị trí: tuyệt đối;
+    display: inline-block;
+    trái: 70%;
+    đầu: 40vh;
+    -webkit-chuyển tiếp: dễ dàng hết 0,3 giây;
+}
+
+#bg {
+    vị trí: cố định;
+    đầu: 0;
+    đúng: 0;
+    đáy: 0;
+    trái: 0;
+    độ mờ: .8;
+    / * chiều cao: 100vh; * /
+    z-index: 0;
+    background-repeat: không lặp lại;
+    background-image: url (../ img / bg.webp);
+    background-size: bìa;
+    nền-vị trí: 50%;
+    -webkit-filter: mờ (4px);
+}
+
+.swal2-image {
+    object-fit: chứa;
+}
+
+.swal2-title,
+.swal2-content {
+    màu sắc: azure! important;
+}
+
+.swal2-popup {
+    border-radius: 15px! important;
+}
+
+tiêu đề h2 {
+    font-family: 'Pacifico';
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+    màu sắc: lục lam;
+}
+
+tiêu đề h4 {
+    font-family: 'Pacifico';
+    text-align: center;
+    màu sắc: chartreuse;
+}
+
+@media only screen and (max-width: 500px) {
+    tiêu đề h2 {
+        font-family: 'sans-serif';
+        font-size: 45px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    tiêu đề h4 {
+        font-family: 'Pacifico';
+        text-align: center;
+        đệm: 15px;
+    }
+    #không {
+        vị trí: tuyệt đối;
+        display: inline-block;
+        trái: 7%;
+        đầu: 40vh;
+        font-size: 14px;
+        đệm: 3px;
+        -webkit-chuyển tiếp: dễ dàng hết 0,1 giây;
+    }
+    #đúng {
+        vị trí: tuyệt đối;
+        display: inline-block;
+        trái: 58%;
+        đầu: 40vh;
+        font-size: 14px;
+        đệm: 3px;
+        -webkit-chuyển tiếp: dễ dàng hết 0,3 giây;
+    }
+}
+
+.swal2-backdrop-show {
+    background-size: 200px 100px! important;
+}
